@@ -1,0 +1,34 @@
+
+        body{ 
+            margin:0; 
+            padding:0; 
+        }  
+        .wraper{ border: 3px solid blue;
+            display:inline-flex 
+            flex-direction: column; 
+            height: 100%;
+            width: 80%;
+            margin:0 auto;
+        }
+            
+        header{
+            background: red; 
+            border:1px solid ;
+           
+            margin:5px;
+            padding: 10px;
+        }
+        footer{
+            background: red; 
+          border:1px solid ;
+            padding: 1x;
+             margin:5px;
+        }
+        #corpo{ 
+            border:1px solid red;
+            flex-grow: 1;
+            padding: 300px;
+             margin:5px;
+            
+            
+        }
